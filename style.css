@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(145deg, #153677, #4e085f);
+}
+
+
+
+/* stop watch */
+.watch-container {
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: #153677;
+    width: 400px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+#time span{
+    font-size: 3rem;
+}
+.timer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.set{
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    background: linear-gradient(145deg, #153677, #4e085f);
+    padding: 10px;
+    width: 100px;
+    font-weight: 500;
+}
+
+.set:active{
+    background: linear-gradient(145deg, #14223d, #220e28);
+
+}
+
+
